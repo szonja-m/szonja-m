@@ -1,8 +1,8 @@
 /* General Page Styles */
 body {
     background-color: #E5F7E5; 
-    font-family: times new 'Times New Roman', Times, serif, sans-serif;
-    color: #0000AA; /* Dark blue text color */
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #001F54; /* Dark blue text color */
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,11 +10,28 @@ body {
     align-items: center; /* Center the boxes horizontally */
 }
 
+header {
+    background-color: #88bb88; /* Updated header background color */
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow to separate header visually */
+}
+
+/* Main Title (h1) Styles */
+h1 {
+    font-size: 4.5em;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 1000;
+    margin: 0;
+    color: #001F54; /* Dark blue text color */
+}
+
 /* Highlight Box Styles */
 .highlight-box {
     background-color: #D0E6D0; /* Light greyish-greenish color */
-    width: 80%; /* Adjust the width of the boxes */
-    max-width: 600px; /* Set a max-width to avoid stretching on large screens */
+    width: 86%; /* Adjust the width of the boxes */
+    margin: 20px auto; /* Add vertical spacing between boxes */
     padding: 20px;
     margin: 20px 0; /* Add vertical spacing between boxes */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for slight depth */
@@ -24,12 +41,12 @@ body {
 
 /* Heading Styles */
 h2 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin-bottom: 10px;
 }
 
 /* Paragraph Styles */
 p {
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 1.6;
 }
