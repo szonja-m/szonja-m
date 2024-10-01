@@ -1,0 +1,35 @@
+/* General Page Styles */
+body {
+    background-color: #E5F7E5; 
+    font-family: times new 'Times New Roman', Times, serif, sans-serif;
+    color: #0000AA; /* Dark blue text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center the boxes horizontally */
+}
+
+/* Highlight Box Styles */
+.highlight-box {
+    background-color: #D0E6D0; /* Light greyish-greenish color */
+    width: 80%; /* Adjust the width of the boxes */
+    max-width: 600px; /* Set a max-width to avoid stretching on large screens */
+    padding: 20px;
+    margin: 20px 0; /* Add vertical spacing between boxes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for slight depth */
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Heading Styles */
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1em;
+    line-height: 1.6;
+}
