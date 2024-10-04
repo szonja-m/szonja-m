@@ -54,9 +54,10 @@ p {
 footer {
     background-color: #669666; /* Footer background color matching header */
     width: 100%; /* Full width */
-    padding: 20px 0; /* Vertical padding */
+    padding: 80px 0; /* Vertical padding */
     position: relative; /* Allows absolute positioning of footer text */
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: bottom right;
 }
 
 /* Footer Text (Positioned in the bottom right corner) */
