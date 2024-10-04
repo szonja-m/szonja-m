@@ -50,3 +50,22 @@ p {
     font-size: 1.5em;
     line-height: 1.6;
 }
+
+footer {
+    background-color: #669666; /* Footer background color matching header */
+    width: 100%; /* Full width */
+    padding: 20px 0; /* Vertical padding */
+    position: relative; /* Allows absolute positioning of footer text */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Footer Text (Positioned in the bottom right corner) */
+.footer-text {
+    font-family: 'Frank Ruhl Libre', serif; /* Use Frank Ruhl Libre font */
+    font-size: 1.5em; /* Font size for the footer text */
+    color: #001F54; /* Text color matching the rest */
+    position: absolute; /* Absolute positioning within the footer */
+    right: 20px; /* Distance from the right edge */
+    bottom: 10px; /* Distance from the bottom edge */
+    margin: 0; /* Remove any default margins */
+}
