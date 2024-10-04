@@ -1,6 +1,11 @@
 /* General Page Styles */
 body {
-    background-color: #E5F7E5; 
+    /*background-color: #E5F7E5; */
+    /*background-image: url(images.jpg);*/
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh;
     font-family: 'Frank Ruhl Libre', serif;
     color: #001F54; /* Dark blue text color */
     margin: 0;
@@ -51,10 +56,7 @@ p {
     line-height: 1.6;
 }
 
-.highlight-image {
-    max-width: 100px; /* Set a max width for the image */
-    height: auto; /* Maintain aspect ratio */
-}
+fenykep.jpg { width: 100px; height: auto;}
 
 footer {
     background-color: #669666; /* Footer background color matching header */
