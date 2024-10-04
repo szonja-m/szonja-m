@@ -16,7 +16,7 @@
                 <a href="#highlight1">Tanulmányok</a>
                 <a href="#highlight2">Munkáim</a>
                 <a href="#highlight3">Bakancslista</a>
-                <a href="#highlight4">api</a>
+                <a href="#highlight4">Bitcoin árfolyam</a>
             </ul>
         </nav>
     </header>
@@ -67,8 +67,11 @@
     </div>
 
     <div class="highlight-box" id="highlight4">
-        <h2>api</h2>
-        <p>szoveg4</p>
+        <h2>Bitcoin árfolyam</h2>
+        <p>A lekérdezés gomb megnyomásával megkaphatja a jelenlegi bitcoin árfolyamot amerikai dollárban</p>
+        <p id="api-result">1 Bitcoin= <br>24 órás forgalom: <br> Piaci kapitalizáció: </p>
+
+        <button id="fetch-button">Lekérdezés</button>
     </div>
 
     <footer>
@@ -76,5 +79,8 @@
             mihalyi.szonja@gmail.com
         </span>
     </footer>
+
+    <script src="javascript.js" defer></script>
+
 </body>
 </html>
