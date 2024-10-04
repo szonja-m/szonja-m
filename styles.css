@@ -4,10 +4,11 @@ html {
 
 body {
     /*background-color: #E5F7E5; */
-    background url(hatter.jpg)
+    background-image: url(hatter.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment:fixed;
     height: 100vh;
     font-family: 'Frank Ruhl Libre', serif;
     color: #001F54;
@@ -21,6 +22,7 @@ body {
 header {
     background-color: #88bb88;
     width: 100%;
+    height: 220px;
     padding: 40px 0;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
