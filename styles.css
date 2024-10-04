@@ -1,71 +1,65 @@
-<<<<<<< HEAD
-/* General Page Styles */
 html {
-    scroll-behavior: smooth; /* Enables smooth scrolling */
+    scroll-behavior: smooth;
 }
 
 body {
     /*background-color: #E5F7E5; */
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     font-family: 'Frank Ruhl Libre', serif;
-    color: #001F54; /* Dark blue text color */
+    color: #001F54;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center the boxes horizontally */
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
-    background-color: #88bb88; /* Updated header background color */
+    background-color: #88bb88;
     width: 100%;
     padding: 40px 0;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow to separate header visually */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .menu a {
-    color: #001F54; /* Text color */
-    text-decoration: none; /* Remove underline */
+    color: #001F54;
+    text-decoration: none;
     padding: 10px 15px;
 }
 
 .menu a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
-/* Main Title (h1) Styles */
 h1 {
     font-size: 4.5em;
     font-family: 'Frank Ruhl Libre', serif;
     font-weight: 1000;
     margin: 0;
-    color: #001F54; /* Dark blue text color */
+    color: #001F54;
 }
 
-/* Highlight Box Styles */
 .highlight-box {
-    background-color: #D0E6D0; /* Light greyish-greenish color */
-    width: 86%; /* Adjust the width of the boxes */
-    margin: 20px auto; /* Add vertical spacing between boxes */
+    background-color: #D0E6D0;
+    width: 86%;
+    margin: 20px auto;
     padding: 20px;
-    margin: 20px 0; /* Add vertical spacing between boxes */
-    box-shadow: 0 4px 8px rgba(95, 39, 39, 0.1); /* Box shadow for slight depth */
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(95, 39, 39, 0.1);
     box-align: center;
     border-radius: 8px;
     text-align: left;
 }
 
-/* Heading Styles */
 h2 {
     font-size: 2.5em;
     margin-bottom: 10px;
 }
 
-/* Paragraph Styles */
 p {
     font-size: 1em;
     line-height: 1.6;
@@ -74,103 +68,20 @@ p {
 fenykep.jpg { width: 100px; height: auto;}
 
 footer {
-    background-color: #669666; /* Footer background color matching header */
-    width: 100%; /* Full width */
-    padding: 60px 0; /* Vertical padding */
-    position: relative; /* Allows absolute positioning of footer text */
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    text-align: bottom right;
-}
-
-/* Footer Text (Positioned in the bottom right corner) */
-.footer-text {
-    font-family: 'Frank Ruhl Libre', serif; /* Use Frank Ruhl Libre font */
-    font-size: 1.5em; /* Font size for the footer text */
-    color: #001F54; /* Text color matching the rest */
-    position: absolute; /* Absolute positioning within the footer */
-    right: 20px; /* Distance from the right edge */
-    bottom: 10px; /* Distance from the bottom edge */
-    margin: 0; /* Remove any default margins */
-}
-=======
-/* General Page Styles */
-body {
-    /*background-color: #E5F7E5; */
-    /*background-image: url(images.jpg);*/
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    height: 100vh;
-    font-family: 'Frank Ruhl Libre', serif;
-    color: #001F54; /* Dark blue text color */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center the boxes horizontally */
-}
-
-header {
-    background-color: #88bb88; /* Updated header background color */
+    background-color: #669666;
     width: 100%;
-    padding: 100px 0;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow to separate header visually */
-}
-
-/* Main Title (h1) Styles */
-h1 {
-    font-size: 4.5em;
-    font-family: 'Frank Ruhl Libre', serif;
-    font-weight: 1000;
-    margin: 0;
-    color: #001F54; /* Dark blue text color */
-}
-
-/* Highlight Box Styles */
-.highlight-box {
-    background-color: #D0E6D0; /* Light greyish-greenish color */
-    width: 86%; /* Adjust the width of the boxes */
-    margin: 20px auto; /* Add vertical spacing between boxes */
-    padding: 20px;
-    margin: 20px 0; /* Add vertical spacing between boxes */
-    box-shadow: 0 4px 8px rgba(95, 39, 39, 0.1); /* Box shadow for slight depth */
-    box-align: center;
-    border-radius: 8px;
-    text-align: left;
-}
-
-/* Heading Styles */
-h2 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-/* Paragraph Styles */
-p {
-    font-size: 1em;
-    line-height: 1.6;
-}
-
-fenykep.jpg { width: 100px; height: auto;}
-
-footer {
-    background-color: #669666; /* Footer background color matching header */
-    width: 100%; /* Full width */
-    padding: 60px 0; /* Vertical padding */
-    position: relative; /* Allows absolute positioning of footer text */
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 60px 0;
+    position: relative;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
     text-align: bottom right;
 }
 
-/* Footer Text (Positioned in the bottom right corner) */
 .footer-text {
-    font-family: 'Frank Ruhl Libre', serif; /* Use Frank Ruhl Libre font */
-    font-size: 1.5em; /* Font size for the footer text */
-    color: #001F54; /* Text color matching the rest */
-    position: absolute; /* Absolute positioning within the footer */
-    right: 20px; /* Distance from the right edge */
-    bottom: 10px; /* Distance from the bottom edge */
-    margin: 0; /* Remove any default margins */
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.5em;
+    color: #001F54;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    margin: 0;
 }
->>>>>>> 971fa59a2acec6f932977dfd6342332501f8b520
